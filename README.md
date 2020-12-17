@@ -37,3 +37,5 @@ buttons, its children can only inherit the eye color of their parent!
   hogs can grow and shrink when either of the buttons are clicked. (Consider how
   `MasterHog`'s `handleChangeEyeColor` function is 'hooked up' if you are stuck
   here)
+- For an added bonus, use the weight of the `BabyHog` to dynamically change the
+  height of the image
