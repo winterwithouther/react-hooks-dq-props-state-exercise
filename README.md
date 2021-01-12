@@ -2,17 +2,17 @@
 
 In this program, we have three components: `App`, `MasterHog`, and `BabyHog`.
 
-###### `MasterHog`:
+## MasterHog
 
 - Has an eye color that can change via a radio button on the DOM
 - Renders three `BabyHog`s, which inherit its eye color
 - Owns the non-variable data associated with each `BabyHog`. This includes
   their: name, eye color, and hobby. _(Obviously, `MasterHog` gets to name her
   babies, and they genetically inherit her eye color. Not obviously, `MasterHog`
-  also gets to determine their hobbies)_ Look inside `src/db.js` to see data
+  also gets to determine their hobbies)_ Look inside `src/data.js` to see data
   defining what the `BabyHog` offspring should "inherit."
 
-###### `BabyHog`:
+## BabyHog
 
 - Has an _eyeColor_ received from its parent
 - Has a _hobby_ assigned by its parent
@@ -22,7 +22,7 @@ In this program, we have three components: `App`, `MasterHog`, and `BabyHog`.
 **Note:** While the `MasterHog` component can change its own eye color via radio
 buttons, its children can only inherit the eye color of their parent!
 
-## Directions:
+## Directions
 
 - Understanding the data associated with both the `MasterHog` as well as the
   `BabyHog` components, _plan out_ what data should be kept as state vs. props
