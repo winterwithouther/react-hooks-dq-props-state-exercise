@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Master from "../assets/master-hog.png";
+import Boss from "../assets/boss-hog.png";
 import BabyHog from "./BabyHog";
 // import offspring from "../data.js"
 
-function MasterHog() {
+function HogBoss() {
   const [eyeColor, setEyeColor] = useState("blue");
 
   function handleChangeEyeColor(e) {
@@ -33,11 +33,11 @@ function MasterHog() {
         onChange={handleChangeEyeColor}
       />
       Glowing<br></br>
-      <h2>Name: Master Blaster</h2>
+      <h2>Name: Blaster Boss</h2>
       <h3>Weight: 2.54 Tons</h3>
       <h3>Eye Color: {eyeColor}</h3>
-      <div id="masters-domicile">
-        <img id="master-blaster" src={Master} alt="" />
+      <div id="boss-domicile">
+        <img id="boss-blaster" src={Boss} alt="" />
       </div>
       <ul className="hoglist">
         <BabyHog />
@@ -48,4 +48,4 @@ function MasterHog() {
   );
 }
 
-export default MasterHog;
+export default HogBoss;
