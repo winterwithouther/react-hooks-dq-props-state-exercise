@@ -1,10 +1,10 @@
 import React from "react";
-import MasterHog from "./MasterHog";
+import HogBoss from "./HogBoss";
 
 function App() {
   return (
     <div className="App">
-      <MasterHog />
+      <HogBoss />
     </div>
   );
 }

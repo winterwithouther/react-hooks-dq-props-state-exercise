@@ -1,17 +1,17 @@
 const offspring = [
   {
     id: 1,
-    name: "JeffKatzy Katz",
+    name: "Ian Bacon",
     hobby: "Never gonna give",
   },
   {
     id: 2,
-    name: "Rachel",
+    name: "Luxurious Liz",
     hobby: "You up, never gonna",
   },
   {
     id: 3,
-    name: "Maxwell",
+    name: "Grace the Ace",
     hobby: "let you down",
   },
 ];
